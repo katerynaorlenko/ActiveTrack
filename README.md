@@ -1,50 +1,60 @@
-# Welcome to your Expo app 👋
+Opis aplikacji
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+ActiveTrack to aplikacja mobilna stworzona w technologii React Native z wykorzystaniem Expo. Jej głównym celem jest ułatwienie planowania treningów oraz monitorowania postępów użytkownika.
 
-## Get started
+Aplikacja pozwala tworzyć własne plany treningowe, korzystać z biblioteki ćwiczeń, rozpocząć trening, zapisywać historię aktywności oraz analizować podstawowe statystyki.
 
-1. Install dependencies
+Problem
 
-   ```bash
-   npm install
-   ```
+Wiele osób planuje treningi w notatkach lub korzysta z kilku różnych aplikacji jednocześnie. ActiveTrack umożliwia zarządzanie treningami w jednym miejscu oraz śledzenie postępów w prosty i przejrzysty sposób.
 
-2. Start the app
+Główne funkcjonalności
+tworzenie planów treningowych,
+edycja i usuwanie treningów,
+biblioteka ćwiczeń,
+wyszukiwanie ćwiczeń,
+rozpoczęcie treningu,
+oznaczanie wykonanych ćwiczeń,
+historia treningów,
+statystyki aktywności,
+śledzenie samopoczucia po treningu,
+cele tygodniowe,
+system streak,
+lokalne zapisywanie danych.
+Technologie i biblioteki
 
-   ```bash
-   npx expo start
-   ```
+Projekt został wykonany z wykorzystaniem:
 
-In the output, you'll find options to open the app in a
+React Native
+Expo
+Expo Router
+TypeScript
+AsyncStorage
+Expo Vector Icons
+Struktura projektu
+app/
+components/
+assets/
+hooks/
+constants/
+Instalacja
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Instalacja zależności:
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+npm install
 
-## Get a fresh project
+Uruchomienie aplikacji:
 
-When you're ready, run:
+npx expo start
 
-```bash
-npm run reset-project
-```
+Aplikację można uruchomić za pomocą Expo Go lub emulatora Android/iOS.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Możliwości rozwoju
 
-## Learn more
+W przyszłości aplikacja może zostać rozszerzona o:
 
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+tryb ciemny,
+profil użytkownika,
+synchronizację danych w chmurze,
+eksport historii treningów,
+bardziej rozbudowane statystyki.
